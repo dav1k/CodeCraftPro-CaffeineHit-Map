@@ -33,5 +33,6 @@ app.run(function($ionicPlatform) {
 });
 
 app.config(function($httpProvider) {
+  // Using custom token
   $httpProvider.defaults.headers.common['Authorization'] = 'Token efe2f4e039b675e9ed4c3365b758b329f8d44759';
 });

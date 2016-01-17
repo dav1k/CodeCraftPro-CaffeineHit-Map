@@ -76,6 +76,7 @@ app.service('YelpService', function ($q, $http, $cordovaGeolocation, $ionicPopup
   };
 
   // Load data and paginate twice
+  // This forces the app to completely fill in the array for map population
   self.load().then(function () {
     self.next().then(function () {
       self.next();
