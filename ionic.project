@@ -1,0 +1,12 @@
+{
+  "name": "CodeCraftPro_CaffeineHit-Map",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
